@@ -11,10 +11,10 @@ class Solution:
         if target == 0:
             res.append(path)
             return 
-        for i in range(index, len(nums)):
+        for i in range(index+1, len(nums)):
             self.dfs(nums, target-nums[i], i, path+[nums[i]], res)
 
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.combinationSum([1, 2, 3, 6, 4], 7))
+    print(s.combinationSum(10))

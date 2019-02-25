@@ -7,10 +7,14 @@
 ### 79
 递归需要循环调用函数的时候，如果有
 ```py
-for i in a:
-    dfs(i, b)
+def dfs(n, b)
+  for i in a:
+      dfs(i, b+[x])
 ```
-这个b一定要先深拷贝，否则会在下一次dfs时，b可能已经不是原来的b了……
+要注意这个b是会变化的,所以不能对其修改。即便要改，要在下一次循环之前改回原来的b。否则会在下一次dfs时，b可能已经不是原来的b了……
+
+这个b也可以先深拷贝。
+不过在使用深拷贝的时候需要慎重，阅读过源码的都知道，深拷贝需要维护一个 memo 用于记录已经拷贝的对象，这是它比较慢的原因。在绝大多数情况下，程序里都不存在相互引用。但作为通用模块，Python 深拷贝必须为了这 1% 情形，牺牲 99% 情形下的性能。
 
 ### 212 word search2
 Given a 2D board and a list of words from the dictionary, find all words in the board.

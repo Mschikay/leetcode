@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bacc0e1-6d93-43c5-b224-979bf0c99798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/*4Medianof2sortedarrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/*765couplesholdinghands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/emacs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/147insertionsortlinkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/148sortlinkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/212wordsearch2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21mergetwosortedlinkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23mergeksortedLinkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/779KthSymbolinGrammar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/785biparitte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/79wordsearch0123.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/89graycode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildminheap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bytedancetuixiangzi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance2018houduan3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance2018suanfa1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance2018suanfa2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance2018suanfa3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedance4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytedanceInterview1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/39combinationsum.py" beforeDir="false" afterPath="$PROJECT_DIR$/39combinationsum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/graph.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,36 +30,67 @@
     <session id="-1162766010">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="39" />
+          <entry key="py" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="39" />
+          <entry key="Python" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2144" />
+          <entry key="Python Console" value="3227" />
           <entry key="dummy" value="2" />
-          <entry key="py" value="46960" />
+          <entry key="py" value="48169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="49104" />
+          <entry key="Python" value="51396" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1512216506">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="138" />
+          <entry key="py" value="2175" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2313" />
         </counts>
       </usages-collector>
     </session>
@@ -71,50 +101,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buildminheap.py">
+        <entry file="file://$PROJECT_DIR$/713.SubarrayProductLessThanK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="386">
+              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/79wordsearch0123.py">
+        <entry file="file://$PROJECT_DIR$/152.MaximumProductSubarray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/212wordsearch2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/89graycode.py">
+        <entry file="file://$PROJECT_DIR$/53.MaximumSubarray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <marker date="1548799953497" expanded="true" signature="15:20" ph="..." />
-                <marker date="1548799953497" expanded="true" signature="38:47" ph="..." />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/quicksort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="690">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <marker date="1551102424955" expanded="true" signature="143:148" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +165,7 @@
       <find>result</find>
       <find>hashmap</find>
       <find>helper</find>
+      <find />
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,17 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/79wordsearch.py" />
-        <option value="$PROJECT_DIR$/9palindromenumber.py" />
-        <option value="$PROJECT_DIR$/51NQueens.py" />
-        <option value="$PROJECT_DIR$/.idea/77combination.py" />
-        <option value="$PROJECT_DIR$/1twosum.py" />
-        <option value="$PROJECT_DIR$/77combination.py" />
-        <option value="$PROJECT_DIR$/160intersectionof2linkedlists.py" />
-        <option value="$PROJECT_DIR$/19removeNNodefromtheend.py" />
-        <option value="$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/68c45e5859c1779b9a82d10d99da18c5/Message/MessageTemp/5780f5d9e62124bbc538bf42afa3e8bf/File/test.cpp" />
-        <option value="$PROJECT_DIR$/3longestsubstring.py" />
-        <option value="$PROJECT_DIR$/12integertoroman.py" />
         <option value="$PROJECT_DIR$/78subsets.py" />
         <option value="$PROJECT_DIR$/60Permutation.py" />
         <option value="$PROJECT_DIR$/93RestoreIPAddresses.py" />
@@ -175,7 +185,6 @@
         <option value="$PROJECT_DIR$/133clonegraph.py" />
         <option value="$PROJECT_DIR$/40combinationsum.py" />
         <option value="$PROJECT_DIR$/216combinationsum.py" />
-        <option value="$PROJECT_DIR$/39combinationsum.py" />
         <option value="$PROJECT_DIR$/377combinationsum.py" />
         <option value="$PROJECT_DIR$/127wordladder.py" />
         <option value="$PROJECT_DIR$/126wordladder2.py" />
@@ -189,9 +198,33 @@
         <option value="$PROJECT_DIR$/785biparitte.py" />
         <option value="$PROJECT_DIR$/779KthSymbolinGrammar.py" />
         <option value="$PROJECT_DIR$/79wordsearch0123.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/212wordsearch2.py" />
         <option value="$PROJECT_DIR$/89graycode.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/bytedance2.py" />
+        <option value="$PROJECT_DIR$/bytedance4.py" />
+        <option value="$PROJECT_DIR$/bytedance1.py" />
+        <option value="$PROJECT_DIR$/bytedance3.py" />
+        <option value="$PROJECT_DIR$/bytedance2018suanfa3.py" />
+        <option value="$PROJECT_DIR$/bytedance2018suanfa2.py" />
+        <option value="$PROJECT_DIR$/bytedance2018suanfa1.py" />
+        <option value="$PROJECT_DIR$/bytedance2018houduan3.py" />
+        <option value="$PROJECT_DIR$/Bytedancetuixiangzi.py" />
+        <option value="$PROJECT_DIR$/bytedanceInterview1.py" />
+        <option value="$PROJECT_DIR$/206Reverse Linked List.py" />
+        <option value="$PROJECT_DIR$/92Reverse Linked List II.py" />
+        <option value="$PROJECT_DIR$/142Linked list cycle.py" />
+        <option value="$PROJECT_DIR$/287Find the Duplicate Number.py" />
+        <option value="$USER_HOME$/Desktop/testing_tool.py" />
+        <option value="$PROJECT_DIR$/15.3Sum.py" />
+        <option value="$PROJECT_DIR$/1.TwoSum.py" />
+        <option value="$PROJECT_DIR$/167.TwoSumII.py" />
+        <option value="$PROJECT_DIR$/39combinationsum.py" />
+        <option value="$PROJECT_DIR$/560.SubarraySumEqualsK.py" />
+        <option value="$PROJECT_DIR$/quicksort.py" />
+        <option value="$PROJECT_DIR$/713.SubarrayProductLessThanK.py" />
+        <option value="$PROJECT_DIR$/152.MaximumProductSubarray.py" />
+        <option value="$PROJECT_DIR$/53.MaximumSubarray.py" />
       </list>
     </option>
   </component>
@@ -202,16 +235,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="802" />
-    <option name="width" value="638" />
-    <option name="height" value="900" />
+    <option name="y" value="23" />
+    <option name="width" value="1407" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -318,12 +354,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.53411764" side_tool="true" weight="0.32879657" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.14880493" />
-      <window_info id="Structure" order="2" weight="0.24812594" />
-      <window_info active="true" id="Terminal" order="3" sideWeight="0.43058825" visible="true" weight="0.32689556" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.14878398" />
+      <window_info id="Structure" order="2" weight="0.24749643" />
+      <window_info active="true" id="Terminal" order="3" sideWeight="0.43058825" visible="true" weight="0.52646637" />
       <window_info id="Event Log" order="4" sideWeight="0.56941175" side_tool="true" weight="0.4161891" />
-      <window_info id="Python Console" order="5" sideWeight="0.42705882" weight="0.47619048" />
-      <window_info id="TODO" order="6" sideWeight="0.46588236" weight="0.3276644" />
+      <window_info id="Python Console" order="5" sideWeight="0.42705882" weight="0.33547926" />
+      <window_info id="TODO" order="6" sideWeight="0.46588236" weight="0.32761088" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.09681529" />
@@ -359,79 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Other/work/leetcode/51NQueens.py" />
-    <entry file="file://$PROJECT_DIR$/79wordsearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/77combination.py" />
-    <entry file="file://$PROJECT_DIR$/1twosum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9palindromenumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/77combination.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/51NQueens.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/160intersectionof2linkedlists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/68c45e5859c1779b9a82d10d99da18c5/Message/MessageTemp/5780f5d9e62124bbc538bf42afa3e8bf/File/test.cpp" />
-    <entry file="file://$PROJECT_DIR$/12integertoroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/19removeNNodefromtheend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/78subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/93RestoreIPAddresses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/60Permutation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -474,20 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/133clonegraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binarytree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2379">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/40combinationsum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -502,24 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/39combinationsum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/216combinationsum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/377combinationsum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -546,16 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/148sortlinkedlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-          <folding>
-            <marker date="1548008006036" expanded="true" signature="688:1052" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,20 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/79wordsearch0123.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/*765couplesholdinghands.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -626,6 +537,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/79wordsearch0123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/89graycode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <marker date="1548799953497" expanded="true" signature="15:20" ph="..." />
+            <marker date="1548799953497" expanded="true" signature="38:47" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/212wordsearch2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -633,14 +562,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/89graycode.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="1650">
+          <caret line="110" selection-start-line="110" selection-end-line="132" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance2018suanfa1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="125" column="18" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedanceInterview1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bytedancetuixiangzi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance2018suanfa2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance2018suanfa3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/92Reverse Linked List II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/206Reverse Linked List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/142Linked list cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binarytree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3105">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/testing_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="202" column="11" lean-forward="true" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/377combinationsum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance2018houduan3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/133clonegraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/148sortlinkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
           <folding>
-            <marker date="1548799953497" expanded="true" signature="15:20" ph="..." />
-            <marker date="1548799953497" expanded="true" signature="38:47" ph="..." />
+            <marker date="1548008006036" expanded="true" signature="688:1052" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/287Find the Duplicate Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.TwoSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/167.TwoSumII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.3Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/39combinationsum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/560.SubarraySumEqualsK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <marker date="1551102424955" expanded="true" signature="143:148" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/713.SubarrayProductLessThanK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/152.MaximumProductSubarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/53.MaximumSubarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
