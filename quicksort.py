@@ -1,5 +1,5 @@
 
-arr = [1, 4, 2, 5, 7, 8, 34, 5, 43, 12, 76]
+arr = [1, 4, 2, 5, 7, 8, 1, 5, 43, 12, 76]
 
 
 def quickSort(low, high):
@@ -51,4 +51,4 @@ def quickSort1(low, high):
     return arr
 
 
-print(quickSort1(0, len(arr)-1))
+print(quickSort(0, len(arr)-1))

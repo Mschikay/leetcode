@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bacc0e1-6d93-43c5-b224-979bf0c99798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Bytedancetuixiangzi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance2018houduan3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance2018suanfa1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance2018suanfa2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance2018suanfa3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedanceInterview1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/39combinationsum.py" beforeDir="false" afterPath="$PROJECT_DIR$/39combinationsum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/graph.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUBARRAY套餐.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUBARRAY套餐.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quicksort.py" beforeDir="false" afterPath="$PROJECT_DIR$/quicksort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,23 +63,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="138" />
-          <entry key="py" value="2175" />
+          <entry key="Python Console" value="156" />
+          <entry key="py" value="2306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2313" />
+          <entry key="Python" value="2462" />
         </counts>
       </usages-collector>
     </session>
@@ -118,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/53.MaximumSubarray.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -127,14 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quicksort.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding>
-                <marker date="1551102424955" expanded="true" signature="143:148" ph="..." />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -174,9 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/78subsets.py" />
-        <option value="$PROJECT_DIR$/60Permutation.py" />
-        <option value="$PROJECT_DIR$/93RestoreIPAddresses.py" />
         <option value="$PROJECT_DIR$/FindPositioninRotatedArray.py" />
         <option value="$PROJECT_DIR$/29DividedTwoIntegers.py" />
         <option value="$PROJECT_DIR$/binarytree.py" />
@@ -221,10 +204,13 @@
         <option value="$PROJECT_DIR$/167.TwoSumII.py" />
         <option value="$PROJECT_DIR$/39combinationsum.py" />
         <option value="$PROJECT_DIR$/560.SubarraySumEqualsK.py" />
-        <option value="$PROJECT_DIR$/quicksort.py" />
         <option value="$PROJECT_DIR$/713.SubarrayProductLessThanK.py" />
         <option value="$PROJECT_DIR$/152.MaximumProductSubarray.py" />
         <option value="$PROJECT_DIR$/53.MaximumSubarray.py" />
+        <option value="$PROJECT_DIR$/quicksort.py" />
+        <option value="$PROJECT_DIR$/75.SortColors.py" />
+        <option value="$PROJECT_DIR$/41.FirstMissingPositive.py" />
+        <option value="$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py" />
       </list>
     </option>
   </component>
@@ -356,7 +342,7 @@
       <window_info id="Favorites" order="0" sideWeight="0.53411764" side_tool="true" weight="0.32879657" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.14878398" />
       <window_info id="Structure" order="2" weight="0.24749643" />
-      <window_info active="true" id="Terminal" order="3" sideWeight="0.43058825" visible="true" weight="0.52646637" />
+      <window_info active="true" id="Terminal" order="3" sideWeight="0.43058825" visible="true" weight="0.24606581" />
       <window_info id="Event Log" order="4" sideWeight="0.56941175" side_tool="true" weight="0.4161891" />
       <window_info id="Python Console" order="5" sideWeight="0.42705882" weight="0.33547926" />
       <window_info id="TODO" order="6" sideWeight="0.46588236" weight="0.32761088" />
@@ -395,27 +381,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/60Permutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/29DividedTwoIntegers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/297SerializeDeserializeBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -732,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quicksort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <marker date="1551102424955" expanded="true" signature="143:148" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/713.SubarrayProductLessThanK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -760,6 +715,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/41.FirstMissingPositive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/75.SortColors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <marker date="1551242137408" expanded="true" signature="142:147" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>

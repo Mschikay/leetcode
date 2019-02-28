@@ -17,6 +17,40 @@ Follow up:
 ```
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 ```
+```py
+    if nums is None or nums == []:
+        return []
+        
+        
+    def leftSum(low, high):
+        left = 0
+        leftMax = -sys.maxsize
+        for i in range(high, low-1, -1):
+            left += nums[i]
+            if left > leftMax:
+                leftMax = left
+        return leftMax
+        
+    def rightSum(low, high):
+        right = 0
+        rightMax = -sys.maxsize
+        for i in range(low, high+1):
+            right += nums[i]
+            if right > rightMax:
+                rightMax = right
+        return rightMax
+        
+    def divide(low, high):
+        if low == high:
+            return nums[low]
+            
+        mid = (low + high) // 2
+        left = leftSum(low, mid)
+        right = rightSum(mid+1, high)
+        return max(divide(low, mid), left+right, divide(mid+1, high))
+        
+    return divide(0, len(nums)-1)
+```
 ## Maximum Product Subarray
 ```
 Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
