@@ -44,4 +44,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     s = Solution()
-    s.combinationSum2([10, 1, 2, 7, 6, 1, 5], 8)
+    s.combinationSum2([2, 10, 13, 17, 22, 42], 52)
