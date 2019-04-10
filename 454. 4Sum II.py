@@ -20,3 +20,21 @@ class Solution:
             res += len(v) * len(targetValue)
 
         return res
+
+# REFINED
+class Solution:
+    def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
+        if A is None or B is None or C is None or D is None:
+            return []
+
+        pair = {}
+        for a in A:
+            for b in B:
+                pair[a + b] = pair.get(a + b, 0) + 1
+
+        res = 0
+        for c in C:
+            for d in D:
+                res += pair.get(-c - d, 0)
+
+        return res
