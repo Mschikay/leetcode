@@ -1,6 +1,4 @@
-from collections import deque
-import copy
-
+from collections import deque, defaultdict
 
 class Solution(object):
     def findLadders1(self, beginWord, endWord, wordList):
@@ -12,114 +10,50 @@ class Solution(object):
         """
         # 先用BFS从终点出发，存储每个点到终点的最短路径
         # 然后用深搜找路径
-        d = {}
-        newList = copy.deepcopy(wordList)
-        if not beginWord or not endWord:
-            return []
+
+        nei = defaultdict(list)
+        for w in wordList:
+            for i in range(len(w)):
+                key = w[0:i] + "_" + w[i + 1:]
+                nei[key].append(w)
+
+        N = len(wordList)
+        wd = defaultdict(lambda: N)
+        q = deque()
+        q.append((endWord, 0))
+        visited = set()
+        visited.add(endWord)
+        step = 0
+        while q:
+            w, step = q.popleft()
+            wd[w] = step
+            for i in range(len(w)):
+                key = w[0:i] + "_" + w[i + 1:]
+                for n in nei[key]:
+                    if n not in visited:
+                        visited.add(n)
+                        q.append((n, step + 1))
         if beginWord not in wordList:
-            newList = wordList + [beginWord]
-        for word in newList:
-            for i in range(len(word)):
-                template = word[0:i]+'/'+word[i+1:]
-                d.setdefault(template, [])
-                d[template].append(word)
+            wd[beginWord] = step + 1
 
-        hash = set()
-        hash.add(endWord)
-        wordDistance = {endWord: 1}
-        queue = deque()
-        queue.append(endWord)
+        # print(wd)
 
-        # BFS
-        while queue:
-            word = queue.popleft()
-            step = wordDistance.get(word)
-
-            for i in range(len(word)):
-                key = word[0:i] + '/' + word[i+1:]
-                neighbors = d.get(key, [])
-                for neighbor in neighbors:
-                    if neighbor not in hash:
-                        hash.add(neighbor)
-                        queue.append(neighbor)
-                        wordDistance[neighbor] = step + 1
-        # DFS
-        results = []
-
-        def paths(word, path):
-            step = wordDistance.get(word)
-            path.append(word)
-
-            if word == endWord:
-                results.append(path)
+        def dfs(cur, path, res):
+            if cur == endWord:
+                res.append(path)
+                return
+            else:
+                step = wd[cur]
+                for i in range(len(cur)):
+                    key = cur[0:i] + "_" + cur[i + 1:]
+                    for n in nei[key]:
+                        if wd[n] == step - 1:
+                            dfs(n, path + [n], res)
                 return
 
-            for i in range(len(word)):
-                key = word[0:i] + '/' + word[i + 1:]
-                neighbors = d.get(key, [])
-                if not neighbors:
-                    continue
-                for neighbor in neighbors:
-                    if wordDistance.get(neighbor) and wordDistance.get(neighbor) == step - 1:
-                        # newPath = copy.deepcopy(path)
-                        paths(neighbor, path)
-
-        # get results
-        paths(beginWord, [])
-
-        return results
-
-    def findLadders2(self, beginWord, endWord, wordList):
-        # or
-        # from begin to end: BFS (为了记下最短路径是多少)
-        # from end to begin: DFS（通过最短路径搜寻即可，搜到的点要往前插入数组）
-
-        d = {}
-        newList = copy.deepcopy(wordList)
-        if not beginWord or not endWord:
-            return []
-        if beginWord not in wordList:
-            newList = wordList + [beginWord]
-        for word in newList:
-            for i in range(len(word)):
-                template = word[0:i] + '/' + word[i + 1:]
-                d.setdefault(template, [])
-                d[template].append(word)
-
-        # print(d)
-
-        paths = []
-
-        def dfs(path, word, hash):
-            path.append(word)
-            # print(path, word)
-            if word == endWord:
-                paths.append(path)
-                return
-
-            for i in range(len(word)):
-                key = word[0:i] + '/' + word[i+1:]
-                neighbors = d.get(key, [])
-                for neighbor in neighbors:
-                    if neighbor not in hash:
-                        newHash = copy.deepcopy(hash)
-                        newHash.add(neighbor)
-                        newPath = copy.deepcopy(path)
-                        dfs(newPath, neighbor, newHash)
-            return
-
-        exist = set()
-        exist.add(beginWord)
-        dfs([], beginWord, exist)
-        # print(paths)
-        if not paths:
-            return []
-        newPath = []
-        minLen = len(min(paths, key=len))
-        for p in paths:
-            if len(p) == minLen:
-                newPath.append(p)
-        return newPath
+        res = []
+        dfs(beginWord, [beginWord], res)
+        return res
 
 
 if __name__ == "__main__":
