@@ -11,3 +11,29 @@ class Solution:
             if a2 == a1:
                 return True
         return False
+
+
+from collections import Counter, defaultdict
+
+
+class Solution(object):
+    def checkInclusion(self, s1, s2):
+        """
+        :type s1: str
+        :type s2: str
+        :rtype: bool
+        """
+        d1 = Counter(s1)
+        d2 = defaultdict(lambda: 0)
+        l = r = 0
+        while r < len(s2):
+            d2[s2[r]] += 1
+            if r >= len(s1):
+                d2[s2[l]] -= 1
+                if d2[s2[l]] == 0: d2.pop(s2[l])
+                l += 1
+
+            if d2 == d1: return True
+            r += 1
+        return False
+
