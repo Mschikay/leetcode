@@ -1,32 +1,23 @@
-from collections import deque
-
-
 class Solution:
-    def maxSlidingWindow(self, nums, k):
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+        if not nums or not k: return []
+        ans = []
+        m = (-1, float("-inf"))
 
-        i, j = 0, k - 1
-        N = len(nums)
-        res = []
-        m = float("-inf")
-        idx = -1
-
-        while j < N:
-            if i <= idx:
-                if nums[j] > m:
-                    m = nums[j]
-                    idx = j
+        for i in range(len(nums) - k + 1):
+            if m[0] >= i:
+                if nums[i + k - 1] <= m[1]:
+                    ans.append(m[1])
+                else:
+                    ans.append(nums[i + k - 1])
+                    m = (i + k - 1, nums[i + k - 1])
             else:
-                m = float("-inf")
-                for n in range(i, j + 1):
-                    # print(n,nums[n])
-                    if nums[n] > m:
-                        m = nums[n]
-                        idx = n
-            res.append(m)
-            i += 1
-            j += 1
+                m = (-1, float("-inf"))
+                for j in range(i, i + k):
+                    if m[1] < nums[j]: m = (j, nums[j])
+                ans.append(m[1])
+        return ans
 
-        return [] if not nums else res
 
     def maxSlidingWindow1(self, nums, k):
         """
@@ -86,3 +77,25 @@ class Solution:
 
 s = Solution()
 s.maxSlidingWindow1([8, 9, 7, 6, 6, 7], 3)
+
+
+# my solution of monotonic queue
+from collections import deque
+class Solution:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+        if not nums or not k: return []
+        ans = []
+        q = deque()
+        for i in range(k):
+            while q and nums[i] > q[-1][1]:
+                q.pop()
+            q.append((i, nums[i]))
+        ans.append(q[0][1])
+        for i in range(k, len(nums)):
+            while q and i - q[0][0] > k - 1:
+                q.popleft()
+            while q and nums[i] > q[-1][1]:
+                q.pop()
+            q.append((i, nums[i]))
+            ans.append(q[0][1])
+        return ans
