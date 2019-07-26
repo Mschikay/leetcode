@@ -35,7 +35,6 @@ class Solution:
                 if w != rsuf and pre == rpre and rsuf in d.keys():
                     res.append([d[rsuf], d[w]])
 
-                if i < len(w):
-                    if w != rpre and suf == rsuf and rpre in d.keys():
-                        res.append([d[w], d[rpre]])
+                if w != rpre and suf == rsuf and rpre in d.keys():
+                    res.append([d[w], d[rpre]])
         return res

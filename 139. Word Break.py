@@ -23,30 +23,48 @@ class Solution:
 
         return dfs(s, 1)
 
-    def bfs(self, s, wordDict):
-        # BFS
-        queue = collections.deque()
-        visited = set()
-        queue.appendleft(0)
-        visited.add(0)
-        while len(queue) > 0:
-            curr_index = queue.pop()
-            for i in range(curr_index, len(s)+1):
-                if i in visited:
-                    continue
-                if s[curr_index:i] in wordDict:
-                    if i == len(s):
-                        return True
-                    queue.appendleft(i)
-                    visited.add(i)
-        return False
+        def bfs(self, s, wordDict):
+            # BFS
+            queue = collections.deque()
+            visited = set()
+            queue.appendleft(0)
+            visited.add(0)
+            while len(queue) > 0:
+                curr_index = queue.pop()
+                for i in range(curr_index, len(s)+1):
+                    if i in visited:
+                        continue
+                    if s[curr_index:i] in wordDict:
+                        if i == len(s):
+                            return True
+                        queue.appendleft(i)
+                        visited.add(i)
+            return False
 
-    # use dp
-    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        d = [False] * len(s)
-        for i in range(len(s)):
-            for w in wordDict:
-                if s[i - len(w) + 1:i + 1] == w and (d[i - len(w)] or i - len(w) == -1):
-                    d[i] = True
-                    break
-        return d[-1]
+        # use dp
+        def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+            d = [False] * len(s)
+            for i in range(len(s)):
+                for w in wordDict:
+                    if s[i - len(w) + 1:i + 1] == w and (d[i - len(w)] or i - len(w) == -1):
+                        d[i] = True
+                        break
+            return d[-1]
+
+        '''trie, time limit exceeded'''
+
+        def dfs(word, s):
+            for i in range(1, len(word)):
+                pre, sur = word[:i], word[i:]
+                if pre in s and sur in s:
+                    return True
+                elif pre in s:
+                    if dfs(sur, s): return True
+                elif sur in s:
+                    if dfs(pre, s): return True
+            return False
+
+        ans = []
+        wordset = set(wordDict)
+
+        return dfs(s, wordset)
