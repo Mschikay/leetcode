@@ -13,3 +13,14 @@ class Solution:
                     dp[i][j] = min(dp[i - 1][j] + grid[i][j], dp[i][j - 1] + grid[i][j])
 
         return dp[-1][-1]
+
+        def dfs(i, j, mem):
+            if i < 0 or j < 0: return float("inf")
+            if not i and not j: return grid[i][j]
+            if (i, j) in mem: return mem[(i, j)]
+            v = min(dfs(i - 1, j, mem), dfs(i, j - 1, mem)) + grid[i][j]
+            mem[(i, j)] = v
+            return v
+
+        mem = defaultdict()
+        return dfs(len(grid) - 1, len(grid[0]) - 1, mem)
