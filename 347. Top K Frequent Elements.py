@@ -12,6 +12,6 @@ class Solution:
             if len(h) < k:
                 heappush(h, (f, num))
             else:
-                heappushpop(h, (f, num))
+                heappushpop(h, (f, num)) # the new element only need to be greater than the min in former top K
         ans = [x[1] for x in h]
         return ans

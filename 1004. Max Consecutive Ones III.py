@@ -13,3 +13,17 @@ class Solution:
             maxlen = max(maxlen, r - l)
 
         return maxlen
+
+
+class Solution:
+    def longestOnes(self, A: List[int], K: int) -> int:
+        i = j = 0
+        ans = num = 0
+        while j < len(A):
+            num += 1 - A[j]
+            while num > K:
+                num -= 1 - A[i]
+                i += 1
+            ans = max(ans, j - i + 1)
+            j += 1
+        return ans

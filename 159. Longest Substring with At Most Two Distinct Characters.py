@@ -22,3 +22,22 @@ class Solution(object):
             maxlen = max(maxlen, r - l)
         return maxlen
 
+
+from collections import defaultdict
+class Solution(object):
+    def lengthOfLongestSubstringTwoDistinct(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        ch = defaultdict(lambda:0)
+        l = r = res = 0
+        for r in range(len(s)):
+            ch[s[r]] += 1
+            while len(ch) > 2:
+                ch[s[l]] -= 1
+                if not ch[s[l]]:
+                    ch.pop(s[l])
+                l += 1
+            res = max(res, r - l + 1)
+        return res

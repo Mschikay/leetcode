@@ -4,7 +4,7 @@ class Solution:
         dp[0][0] = True
         for x in range(len(p)):
             if p[x] == "*":
-                dp[0][x + 1] = dp[0][x]
+                dp[0][x + 1] = dp[0][x] # in the for loop, dp[0][x] will not be edited. so we edit it here before loop
         for i in range(len(s)):
             for j in range(len(p)):
                 if s[i] == p[j] or p[j] == "?":

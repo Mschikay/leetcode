@@ -1,3 +1,4 @@
+'''in the worst case, it could be n * k, on average it is n * log(k)'''
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         k = len(nums) - k
@@ -24,10 +25,16 @@ class Solution:
         return nums[l]
 
 
+from heapq import *
+
+
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        k = len(nums) - k
-        heapq.heapify(nums)
-        for i in range(k):
-            heapq.heappop(nums)
-        return nums[0]
+        h = []
+        heapq.heapify(h)
+        for num in nums:
+            if len(h) == k:
+                heappushpop(h, num)
+            else:
+                heappush(h, num)
+        return h[0]

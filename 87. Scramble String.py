@@ -1,3 +1,4 @@
+'''4^(l1), space (l1)'''
 class Solution:
     def isScramble(self, S1: str, S2: str) -> bool:
         mem = {}

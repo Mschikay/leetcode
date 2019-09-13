@@ -6,40 +6,21 @@
 
 class Solution:
     def reverseBetween(self, head: 'ListNode', m: 'int', n: 'int') -> 'ListNode':
-        if not head:
-            return
-
-        i = 1
-        helper = head
-        start = None
-        end = None
-        before = None
-        while helper and i < m:
+        dummy = prev = ListNode(None)
+        dummy.next = head
+        i = 0
+        while prev.next:
             i += 1
-            before = helper
-            helper = helper.next
-
-        if helper:
-            start = before
-            end = helper
-
-            before = helper
-            curr = helper.next
+            if i == m:
+                break
+            prev = prev.next
+        tail1 = prev
+        tail2 = node = prev.next
+        while i <= n:
+            succ = node.next
+            node.next = prev
+            prev, node = node, succ
             i += 1
-            while curr and i <= n:
-                i += 1
-                nextNode = curr.next
-                curr.next = before
-                before = curr
-                curr = nextNode
-            if i <= n:
-                return None
-
-            end.next = curr
-            if start:
-                start.next = before
-                return head
-
-            return before
-        return None
-
+        tail1.next = prev
+        tail2.next = node
+        return dummy.next

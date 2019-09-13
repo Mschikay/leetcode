@@ -4,7 +4,7 @@ from collections import Counter, defaultdict
 
 
 class Solution:
-    def minSubArrayLen(self, s, nums):# 如果是找恰好是这个值的可以用preSum
+    def minSubArrayLen(self, s, nums):  # 如果是找恰好是这个值的可以用preSum
         preSum = [0]
         for n in nums:
             preSum.append(n + preSum[-1])
@@ -18,94 +18,39 @@ class Solution:
 
         return 0 if minLen == float("inf") else minLen
 
+        '''2 pointers'''
+        i = j = 0
+        ans = float("inf")
+        res = 0
+        while j < len(nums):
+            res += nums[j]
+            j += 1
+            while res >= s:
+                ans = min(ans, j - i)
+                res -= nums[i]
+                i += 1
+        return ans if ans != float("inf") else 0
 
-class Solution:
+    '''binary search'''
     def minSubArrayLen(self, s, nums):
-        if nums is None or len(nums) == 0:
-            return 0
+        preSum = [0]
+        for n in nums:
+            preSum.append(n + preSum[-1])
 
-        l = r = 0
-        curr = 0
-        minLen = float("inf")
-        while r < len(nums):
-            while r < len(nums) and curr < s:
-                curr += nums[r]
-                r += 1
-
-            while l < r and curr >= s:
-                if curr >= s:
-                    minLen = min(r - l, minLen)
-                curr -= nums[l]
-                l += 1
-
-        while l < r and curr >= s:
-            if curr >= s:
-                minLen = min(r - l, minLen)
-            curr -= nums[l]
-            l += 1
-
-        return 0 if minLen == float("inf") else minLen
-
-
-import sys
-
-# A not elegant solution
-# import sys
-#
-# class Solution:
-#     def minSubArrayLen(self, s, nums):
-#         if nums is None or len(nums) == 0:
-#             return 0
-#
-#         l = r = 0
-#         subSum = nums[l]
-#         minLength = sys.maxsize
-#
-#         while True:
-#             if subSum >= s:
-#                 length = r - l + 1
-#                 if minLength > length:
-#                     minLength = length
-#                 subSum -= nums[l]
-#                 l += 1
-#
-#             else:
-#                 r += 1
-#                 if r >= len(nums):
-#                     break
-#                 subSum += nums[r]
-#
-#             if l > r:
-#                 r = l
-#                 if r >= len(nums):
-#                     break
-#                 subSum = nums[l]
-#
-#         if minLength == sys.maxsize:
-#             return 0
-#         return minLength
-
-class Solution:
-    def minSubArrayLen(self, s, nums):
-        if nums is None or len(nums) == 0:
-            return 0
-
-        l = 0
-        subSum = 0
-        minLength = len(nums) + 1 # this step is tricky
-
-        for r, v in enumerate(nums):
-            subSum += v
-            while l <= r:
-                if subSum < s:
-                    break
+        def findMinLen(l, h):
+            last = preSum[h]
+            while l <= h:
+                mid = (l + h) // 2
+                if last - preSum[mid] < s:
+                    h = mid - 1
                 else:
-                    minLength = min(minLength, r - l + 1)
-                    subSum -= nums[l]
-                    l += 1
-        return minLength if minLength <= len(nums) else 0
+                    l = mid + 1
+            return h
 
+        l, minLen = 0, len(preSum)
+        for r, v in enumerate(preSum):
+            if v >= s:
+                l = findMinLen(l, r)
+                minLen = min(minLen, r - l)
 
-if __name__ == "__main__":
-    s = Solution()
-    print(s.minSubArrayLen(15, [1,2,3,4,5]))
+        return 0 if minLen == len(preSum) else minLen

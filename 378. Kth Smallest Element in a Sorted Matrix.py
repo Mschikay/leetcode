@@ -7,7 +7,7 @@ class Solution(object):
         """
         n = len(matrix)
 
-        def smallerThan(x):
+        def smaller_or_equal(x):
             i, j, res = n - 1, 0, 0
             while i >= 0 and j < n:
                 if matrix[i][j] > x:
@@ -20,7 +20,11 @@ class Solution(object):
         lo, hi = matrix[0][0], matrix[n - 1][n - 1]
         while lo <= hi:
             mi = (hi - lo) // 2 + lo
-            if smallerThan(mi) < k:
+            ''' 
+            must be less or equal. if it is just less than, lo will 
+            move to mi + 1, but the answer could be mi, then the answer will be out of range
+            '''
+            if smaller_or_equal(mi) < k:
                 lo = mi + 1
             else:
                 hi = mi - 1
@@ -45,3 +49,23 @@ class Solution:
                 heappop(h)
             v, i, j = h[0]
         return v
+
+from heapq import *
+class Solution:
+    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
+        n = len(matrix)
+        s = set()
+        h = []
+        heapify(h)
+        heappush(h, (matrix[0][0], 0, 0))
+        s.add((0, 0))
+        while k:
+            curr, i, j = heappop(h)
+            if i + 1 < n and (i + 1, j) not in s:
+                s.add((i + 1, j))
+                heappush(h, (matrix[i + 1][j], i + 1, j))
+            if j + 1 < n and (i, j + 1) not in s:
+                s.add((i, j + 1))
+                heappush(h, (matrix[i][j + 1], i, j + 1))
+            k -= 1
+        return curr

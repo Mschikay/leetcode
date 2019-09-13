@@ -1,21 +1,26 @@
+from collections import defaultdict, Counter
+
+
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
-        targets = collections.defaultdict(list)
-        for a, b in sorted(tickets)[::-1]:
-            targets[a] += b,
-        route = []
+        edges = defaultdict(list)
 
-        # print(targets)
+        tickets.sort()
 
-        def dfs(airport):
-            while targets[airport]:
-                dfs(targets[airport].pop())
-            route.append(airport)
+        for s, t in sorted(tickets, reverse=True):
+            edges[s].append(t)
+        print(edges)
 
-        dfs('JFK')
-        return route[::-1]
+        res = []
 
-hy
+        def query(s):
+            while edges[s]:
+                query(edges[s].pop())
+            res.append(s)
+
+        query("JFK")
+        return res[::-1]
+
 from collections import defaultdict
 
 

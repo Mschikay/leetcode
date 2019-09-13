@@ -1,3 +1,4 @@
+
 # 一个超时算法
 class Solution:
     def longestSubstring(self, s, k):
@@ -27,3 +28,24 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
     print(s.longestSubstring("ababbc", 2))
+
+
+'''the worst case is k(branches)^d(depth)'''
+from collections import defaultdict, Counter
+class Solution:
+    def longestSubstring(self, s, k):
+        if len(s) < k:
+            return 0
+        d = Counter(s)
+        ch = None
+        for key, v in d.items():
+            if v < k:
+                ch = key
+                break
+        if ch:
+            ans = 0
+            for new_s in s.split(ch):
+                ans = max(ans, self.longestSubstring(new_s, k))
+            return ans
+        else:
+            return len(s)

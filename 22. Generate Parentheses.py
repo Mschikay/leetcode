@@ -12,3 +12,14 @@ class Solution:
         ans = []
         dfs(1, "(", 1, 0, ans)
         return ans
+
+
+class Solution(object):
+    def generateParenthesis(self, N):
+        if N == 0: return ['']
+        ans = []
+        for c in xrange(N):
+            for left in self.generateParenthesis(c):
+                for right in self.generateParenthesis(N-1-c):
+                    ans.append('({}){}'.format(left, right))
+        return ans
