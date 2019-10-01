@@ -1,18 +1,13 @@
 class Solution:
     def numSubarrayBoundedMax(self, A: List[int], L: int, R: int) -> int:
-        start = end = -1
-        res = 0
-
+        l = r = -1
+        ans = 0
         for i in range(len(A)):
-            if A[i] < L:
-                i += 1
-                res += end - start
-                continue
+            if L <= A[i] <= R:
+                r = i
+            elif A[i] > R:
+                l = r = i
+            ans += r - l
+        return ans
 
-            if A[i] > R:
-                start = end = i
-                continue
 
-            end = i
-            res += end - start
-        return res

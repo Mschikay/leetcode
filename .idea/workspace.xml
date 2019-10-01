@@ -2,81 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bacc0e1-6d93-43c5-b224-979bf0c99798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/1000. Minimum Cost to Merge Stones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1053. Previous Permutation With One Swap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1086. High Five.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1099. Two Sum Less Than K.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1167. Minimum Cost to Connect Sticks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/131. Palindrome Partitioning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/132. Palindrome Partitioning II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/133. Clone Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/134. Gas Station.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/135. Candy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/146. LRU Cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/170. Two Sum III - Data structure design.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/206. Reverse Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/212. Word Search II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/218. The Skyline Problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23. Merge k Sorted Lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/261. Graph Valid Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/264. Ugly Number II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/268. Missing Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/295. Find Median from Data Stream.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/305. Number of Islands II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/321. Create Maximum Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/322. Coin Change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/325. Maximum Size Subarray Sum Equals k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/354. Russian Doll Envelopes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/368. Largest Divisible Subset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/410. Split Array Largest Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/425. Word Squares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/45. Jump Game II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/560. Subarray Sum Equals K.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/654. Maximum Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/71. Simplify Path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/727. Minimum Window Subsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/741. Cherry Pickup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/765. Couples Holding Hands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/792. Number of Matching Subsequences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/796. Rotate String.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/986. Interval List Intersections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partition odd and even.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stripe_tracking_invoices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1043. Partition Array for Maximum Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1057. Campus Bikes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1066. Campus Bikes II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1143. Longest Common Subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/125. Backpack II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/227. Basic Calculator II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/251. Flatten 2D Vector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/290. Word Pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/358. Rearrange String k Distance Apart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/394. Coins in a Line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/395. Coins in a Line II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/407. Trapping Rain Water II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/428. Serialize and Deserialize N-ary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/488. Zuma Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/489. Robot Room Cleaner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/497. Random Point in Non-overlapping Rectangles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/545. Boundary of Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/546. Remove Boxes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/643. Maximum Average Subarray I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/644. Maximum Average Subarray II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/815. Bus Routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/855. Exam Room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/890. Find and Replace Pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/92. backpack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/97. Interleaving String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic Calculator with power.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Substring with At Least K unique Characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic calculator with parenthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book copys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximum subarray with length at least k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merge3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wood cut.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1004. Max Consecutive Ones III.py" beforeDir="false" afterPath="$PROJECT_DIR$/1004. Max Consecutive Ones III.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/143. Reorder List.py" beforeDir="false" afterPath="$PROJECT_DIR$/143. Reorder List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/159. Longest Substring with At Most Two Distinct Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/159. Longest Substring with At Most Two Distinct Characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/160. Intersection of Two Linked Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/160. Intersection of Two Linked Lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18. 4Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/18. 4Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20. Valid Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/20. Valid Parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/209. Minimum Size Subarray Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/209. Minimum Size Subarray Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/215. Kth Largest Element in an Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/215. Kth Largest Element in an Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22. Generate Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/22. Generate Parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/259. 3Sum Smaller.py" beforeDir="false" afterPath="$PROJECT_DIR$/259. 3Sum Smaller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/283. Move Zeroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/283. Move Zeroes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/32. Longest Valid Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/32. Longest Valid Parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/332. Reconstruct Itinerary.py" beforeDir="false" afterPath="$PROJECT_DIR$/332. Reconstruct Itinerary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/340. Longest Substring with At Most K Distinct Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/340. Longest Substring with At Most K Distinct Characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/347. Top K Frequent Elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/347. Top K Frequent Elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/378. Kth Smallest Element in a Sorted Matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/378. Kth Smallest Element in a Sorted Matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/395. Longest Substring with At Least K Repeating Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/395. Longest Substring with At Least K Repeating Characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/426. Convert Binary Search Tree to Sorted Doubly Linked List.py" beforeDir="false" afterPath="$PROJECT_DIR$/426. Convert Binary Search Tree to Sorted Doubly Linked List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/44. Wildcard Matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/44. Wildcard Matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/480. Sliding Window Median.py" beforeDir="false" afterPath="$PROJECT_DIR$/480. Sliding Window Median.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/56. Merge Intervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/56. Merge Intervals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/61. Rotate List.py" beforeDir="false" afterPath="$PROJECT_DIR$/61. Rotate List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/611. Valid Triangle Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/611. Valid Triangle Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/721. Accounts Merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/721. Accounts Merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/743. Network Delay Time.py" beforeDir="false" afterPath="$PROJECT_DIR$/743. Network Delay Time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/802. Find Eventual Safe States.py" beforeDir="false" afterPath="$PROJECT_DIR$/802. Find Eventual Safe States.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/87. Scramble String.py" beforeDir="false" afterPath="$PROJECT_DIR$/87. Scramble String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91. Decode Ways.py" beforeDir="false" afterPath="$PROJECT_DIR$/91. Decode Ways.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/92. Reverse Linked List II .py" beforeDir="false" afterPath="$PROJECT_DIR$/92. Reverse Linked List II .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/95. Unique Binary Search Trees II.py" beforeDir="false" afterPath="$PROJECT_DIR$/95. Unique Binary Search Trees II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/144. Binary Tree Preorder Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/144. Binary Tree Preorder Traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/287. Find the Duplicate Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/287. Find the Duplicate Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/312. Burst Balloons.py" beforeDir="false" afterPath="$PROJECT_DIR$/312. Burst Balloons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/33. Search in Rotated Sorted Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/33. Search in Rotated Sorted Array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/74. Search a 2D Matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/74. Search a 2D Matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py" beforeDir="false" afterPath="$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,42 +95,44 @@
     <session id="-1512216506">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="2" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="479" />
+          <entry key="py" value="540" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="2" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="479" />
+          <entry key="Python" value="540" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="8036" />
-          <entry key="dummy" value="2" />
-          <entry key="py" value="35112" />
+          <entry key="Python Console" value="9474" />
+          <entry key="dummy" value="7" />
+          <entry key="py" value="38567" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="43148" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="48041" />
         </counts>
       </usages-collector>
     </session>
@@ -176,94 +143,104 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/261. Graph Valid Tree.py">
+        <entry file="file://$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/721. Accounts Merge.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/295. Find Median from Data Stream.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/218. The Skyline Problem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <caret line="32" column="18" selection-start-line="19" selection-end-line="32" selection-end-column="18" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1569953486912" expanded="true" signature="351:470" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1043. Partition Array for Maximum Sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5.Longest Palindromic Substring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/546. Remove Boxes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/488. Zuma Game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <marker date="1569722701796" expanded="true" signature="20:25" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/480. Sliding Window Median.py">
+        <entry file="file://$PROJECT_DIR$/Substring with At Least K unique Characters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="26" selection-start-line="26" selection-end-line="68" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/425. Word Squares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="145" column="46" lean-forward="true" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/654. Maximum Binary Tree.py">
+        <entry file="file://$PROJECT_DIR$/227. Basic Calculator II.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="705">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="67" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/291. Word Pattern II.py">
+        <entry file="file://$PROJECT_DIR$/Basic Calculator with power.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="29" selection-start-line="29" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="960">
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+              <folding>
+                <marker date="1569805914842" expanded="true" signature="15:738" ph="..." />
+                <marker date="1569805914842" expanded="true" signature="772:780" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/986. Interval List Intersections.py">
+        <entry file="file://$PROJECT_DIR$/basic calculator with parenthesis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/212. Word Search II.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <marker date="1569861269149" expanded="true" signature="23:25" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -309,46 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/743. Network Delay Time.py" />
-        <option value="$PROJECT_DIR$/332. Reconstruct Itinerary.py" />
-        <option value="$PROJECT_DIR$/560. Subarray Sum Equals K.py" />
-        <option value="$PROJECT_DIR$/426. Convert Binary Search Tree to Sorted Doubly Linked List.py" />
-        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py" />
-        <option value="$PROJECT_DIR$/283. Move Zeroes.py" />
-        <option value="$PROJECT_DIR$/170. Two Sum III - Data structure design.py" />
-        <option value="$PROJECT_DIR$/796. Rotate String.py" />
-        <option value="$PROJECT_DIR$/partition odd and even.py" />
-        <option value="$PROJECT_DIR$/325. Maximum Size Subarray Sum Equals k.py" />
-        <option value="$PROJECT_DIR$/146. LRU Cache.py" />
-        <option value="$PROJECT_DIR$/264. Ugly Number II.py" />
-        <option value="$PROJECT_DIR$/347. Top K Frequent Elements.py" />
-        <option value="$PROJECT_DIR$/23. Merge k Sorted Lists.py" />
-        <option value="$PROJECT_DIR$/stripe_tracking_invoices.py" />
-        <option value="$PROJECT_DIR$/1086. High Five.py" />
-        <option value="$PROJECT_DIR$/322. Coin Change.py" />
-        <option value="$PROJECT_DIR$/410. Split Array Largest Sum.py" />
-        <option value="$PROJECT_DIR$/741. Cherry Pickup.py" />
-        <option value="$PROJECT_DIR$/1000. Minimum Cost to Merge Stones.py" />
-        <option value="$PROJECT_DIR$/1167. Minimum Cost to Connect Sticks.py" />
-        <option value="$PROJECT_DIR$/32. Longest Valid Parentheses.py" />
-        <option value="$PROJECT_DIR$/44. Wildcard Matching.py" />
-        <option value="$PROJECT_DIR$/22. Generate Parentheses.py" />
-        <option value="$PROJECT_DIR$/368. Largest Divisible Subset.py" />
-        <option value="$PROJECT_DIR$/354. Russian Doll Envelopes.py" />
-        <option value="$PROJECT_DIR$/206. Reverse Linked List.py" />
-        <option value="$PROJECT_DIR$/92. Reverse Linked List II .py" />
-        <option value="$PROJECT_DIR$/143. Reorder List.py" />
-        <option value="$PROJECT_DIR$/61. Rotate List.py" />
-        <option value="$PROJECT_DIR$/160. Intersection of Two Linked Lists.py" />
-        <option value="$PROJECT_DIR$/131. Palindrome Partitioning.py" />
-        <option value="$PROJECT_DIR$/132. Palindrome Partitioning II.py" />
-        <option value="$PROJECT_DIR$/google2.py" />
-        <option value="$PROJECT_DIR$/google1.py" />
-        <option value="$PROJECT_DIR$/159. Longest Substring with At Most Two Distinct Characters.py" />
-        <option value="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters.py" />
-        <option value="$PROJECT_DIR$/340. Longest Substring with At Most K Distinct Characters.py" />
-        <option value="$PROJECT_DIR$/395. Longest Substring with At Least K Repeating Characters.py" />
-        <option value="$PROJECT_DIR$/215. Kth Largest Element in an Array.py" />
         <option value="$PROJECT_DIR$/378. Kth Smallest Element in a Sorted Matrix.py" />
         <option value="$PROJECT_DIR$/305. Number of Islands II.py" />
         <option value="$PROJECT_DIR$/261. Graph Valid Tree.py" />
@@ -360,6 +297,46 @@
         <option value="$PROJECT_DIR$/480. Sliding Window Median.py" />
         <option value="$PROJECT_DIR$/654. Maximum Binary Tree.py" />
         <option value="$PROJECT_DIR$/425. Word Squares.py" />
+        <option value="$PROJECT_DIR$/290. Word Pattern.py" />
+        <option value="$PROJECT_DIR$/407. Trapping Rain Water II.py" />
+        <option value="$PROJECT_DIR$/358. Rearrange String k Distance Apart.py" />
+        <option value="$PROJECT_DIR$/251. Flatten 2D Vector.py" />
+        <option value="$PROJECT_DIR$/maximum subarray with length at least k.py" />
+        <option value="$PROJECT_DIR$/287. Find the Duplicate Number.py" />
+        <option value="$PROJECT_DIR$/643. Maximum Average Subarray I.py" />
+        <option value="$PROJECT_DIR$/644. Maximum Average Subarray II.py" />
+        <option value="$PROJECT_DIR$/wood cut.py" />
+        <option value="$PROJECT_DIR$/book copys.py" />
+        <option value="$PROJECT_DIR$/merge3.py" />
+        <option value="$PROJECT_DIR$/33. Search in Rotated Sorted Array.py" />
+        <option value="$PROJECT_DIR$/74. Search a 2D Matrix.py" />
+        <option value="$PROJECT_DIR$/1057. Campus Bikes.py" />
+        <option value="$PROJECT_DIR$/1066. Campus Bikes II.py" />
+        <option value="$PROJECT_DIR$/890. Find and Replace Pattern.py" />
+        <option value="$PROJECT_DIR$/489. Robot Room Cleaner.py" />
+        <option value="$PROJECT_DIR$/855. Exam Room.py" />
+        <option value="$PROJECT_DIR$/497. Random Point in Non-overlapping Rectangles.py" />
+        <option value="$PROJECT_DIR$/815. Bus Routes.py" />
+        <option value="$PROJECT_DIR$/144. Binary Tree Preorder Traversal.py" />
+        <option value="$PROJECT_DIR$/428. Serialize and Deserialize N-ary Tree.py" />
+        <option value="$PROJECT_DIR$/545. Boundary of Binary Tree.py" />
+        <option value="$PROJECT_DIR$/395. Coins in a Line II.py" />
+        <option value="$PROJECT_DIR$/394. Coins in a Line.py" />
+        <option value="$PROJECT_DIR$/92. backpack.py" />
+        <option value="$PROJECT_DIR$/125. Backpack II.py" />
+        <option value="$PROJECT_DIR$/97. Interleaving String.py" />
+        <option value="$PROJECT_DIR$/1143. Longest Common Subsequence.py" />
+        <option value="$PROJECT_DIR$/312. Burst Balloons.py" />
+        <option value="$PROJECT_DIR$/546. Remove Boxes.py" />
+        <option value="$PROJECT_DIR$/488. Zuma Game.py" />
+        <option value="$PROJECT_DIR$/Substring with At Least K unique Characters.py" />
+        <option value="$PROJECT_DIR$/227. Basic Calculator II.py" />
+        <option value="$PROJECT_DIR$/Basic Calculator with **.py" />
+        <option value="$PROJECT_DIR$/Basic Calculator with power.py" />
+        <option value="$PROJECT_DIR$/basic calculator with parenthesis.py" />
+        <option value="$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/1043. Partition Array for Maximum Sum.py" />
       </list>
     </option>
   </component>
@@ -369,10 +346,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="222" />
     <option name="y" value="23" />
-    <option name="width" value="1364" />
+    <option name="width" value="1184" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -490,16 +467,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1364" height="877" extended-state="0" />
+    <frame x="222" y="23" width="1184" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" sideWeight="0.57449496" side_tool="true" weight="0.31379622" />
+      <window_info id="Favorites" order="0" sideWeight="0.22853535" side_tool="true" weight="0.44876325" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49873737" weight="0.14786585" />
       <window_info id="Structure" order="2" sideWeight="0.49873737" weight="0.24542683" />
-      <window_info id="Terminal" order="3" sideWeight="0.4456392" weight="0.36585367" />
+      <window_info active="true" id="Terminal" order="3" sideWeight="0.44191918" visible="true" weight="0.42756185" />
       <window_info id="Event Log" order="4" sideWeight="0.56941175" side_tool="true" weight="0.4161891" />
-      <window_info active="true" id="Python Console" order="5" sideWeight="0.42550504" visible="true" weight="0.25228658" />
-      <window_info id="TODO" order="6" sideWeight="0.46588236" weight="0.32692307" />
+      <window_info id="Python Console" order="5" sideWeight="0.77146465" weight="0.20317003" />
+      <window_info id="TODO" order="6" sideWeight="0.46464646" weight="0.3262195" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.09681529" />
@@ -568,351 +545,361 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/23mergeksortedLinkedlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partition odd and even.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/796. Rotate String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/347. Top K Frequent Elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="111" selection-start-line="14" selection-start-column="111" selection-end-line="14" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/264. Ugly Number II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/146. LRU Cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stripe_tracking_invoices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/727. Minimum Window Subsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1000. Minimum Cost to Merge Stones.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/741. Cherry Pickup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/410. Split Array Largest Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1086. High Five.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/973. K Closest Points to Origin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23. Merge k Sorted Lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/322. Coin Change.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1167. Minimum Cost to Connect Sticks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/32. Longest Valid Parentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/445. Add Two Numbers II.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/44. Wildcard Matching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/22. Generate Parentheses.py">
+    <entry file="file://$PROJECT_DIR$/218. The Skyline Problem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/698.PartitiontoKEqualSumSubsets.py">
+    <entry file="file://$PROJECT_DIR$/wood cut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book copys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/378. Kth Smallest Element in a Sorted Matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/215. Kth Largest Element in an Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33. Search in Rotated Sorted Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/153. Find Minimum in Rotated Sorted Array.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/162. Find Peak Element.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/74. Search a 2D Matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="78" lean-forward="true" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/28. Implement strStr().py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1057. Campus Bikes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1066. Campus Bikes II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/62. Unique Paths.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/368. Largest Divisible Subset.py">
+    <entry file="file://$PROJECT_DIR$/890. Find and Replace Pattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/354. Russian Doll Envelopes.py">
+    <entry file="file://$PROJECT_DIR$/489. Robot Room Cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="1650">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/206Reverse Linked List.py">
+    <entry file="file://$PROJECT_DIR$/855. Exam Room.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="1035">
+          <caret line="69" column="82" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/206. Reverse Linked List.py">
+    <entry file="file://$PROJECT_DIR$/497. Random Point in Non-overlapping Rectangles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="360">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/92. Reverse Linked List II .py">
+    <entry file="file://$PROJECT_DIR$/815. Bus Routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/143. Reorder List.py">
+    <entry file="file://$PROJECT_DIR$/1110. Delete Nodes And Return Forest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="525">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/61. Rotate List.py">
+    <entry file="file://$PROJECT_DIR$/290. Word Pattern.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/160. Intersection of Two Linked Lists.py">
+    <entry file="file://$PROJECT_DIR$/1129. Shortest Path with Alternating Colors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="360">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/148sortlinkedlist.py">
+    <entry file="file://$PROJECT_DIR$/133. Clone Graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="172">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/131. Palindrome Partitioning.py">
+    <entry file="file://$PROJECT_DIR$/144. Binary Tree Preorder Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="533">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/132. Palindrome Partitioning II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google1.py">
+    <entry file="file://$PROJECT_DIR$/106. Construct Binary Tree from Inorder and Postorder Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google2.py">
+    <entry file="file://$PROJECT_DIR$/145. Binary Tree Postorder Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="282">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/159. Longest Substring with At Most Two Distinct Characters.py">
+    <entry file="file://$PROJECT_DIR$/332. Reconstruct Itinerary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/340. Longest Substring with At Most K Distinct Characters.py">
+    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/IPython/core/interactiveshell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="247">
+          <caret line="3325" selection-start-line="3325" selection-end-line="3325" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. Longest Substring Without Repeating Characters.py">
+    <entry file="file://$PROJECT_DIR$/753. Cracking the Safe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/32. Longest Valid Parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/301. Remove Invalid Parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/545. Boundary of Binary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/394. Coins in a Line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/92. backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/395. Coins in a Line II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/125. Backpack II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/97. Interleaving String.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1143. Longest Common Subsequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/395. Longest Substring with At Least K Repeating Characters.py">
+    <entry file="file://$PROJECT_DIR$/312. Burst Balloons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/114. Flatten Binary Tree to Linked List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/428. Serialize and Deserialize N-ary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/795.NumberofSubarrayswithBounded.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.Longest Palindromic Substring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/546. Remove Boxes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/215. Kth Largest Element in an Array.py">
+    <entry file="file://$PROJECT_DIR$/488. Zuma Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/378. Kth Smallest Element in a Sorted Matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/305. Number of Islands II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/261. Graph Valid Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/721. Accounts Merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/295. Find Median from Data Stream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/986. Interval List Intersections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/212. Word Search II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/218. The Skyline Problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1569722701796" expanded="true" signature="20:25" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/480. Sliding Window Median.py">
+    <entry file="file://$PROJECT_DIR$/Substring with At Least K unique Characters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="26" selection-start-line="26" selection-end-line="68" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/654. Maximum Binary Tree.py">
+    <entry file="file://$PROJECT_DIR$/227. Basic Calculator II.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="705">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="67" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/291. Word Pattern II.py">
+    <entry file="file://$PROJECT_DIR$/Basic Calculator with power.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="29" selection-start-line="29" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="960">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <marker date="1569805914842" expanded="true" signature="15:738" ph="..." />
+            <marker date="1569805914842" expanded="true" signature="772:780" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/425. Word Squares.py">
+    <entry file="file://$PROJECT_DIR$/basic calculator with parenthesis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="145" column="46" lean-forward="true" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1569861269149" expanded="true" signature="23:25" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="18" selection-start-line="19" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <marker date="1569953486912" expanded="true" signature="351:470" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1043. Partition Array for Maximum Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>

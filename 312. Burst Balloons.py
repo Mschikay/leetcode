@@ -28,3 +28,24 @@ class Solution:
                 for k in range(i + 1, j):
                     dp[i][j] = max(dp[i][j], nums[i] * nums[k] * nums[j] + dp[i][k] + dp[k][j])
         return dp[0][len(nums) - 1]
+
+
+class Solution(object):
+    def maxCoins(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        nums = [1] + nums + [1]
+        dp = [[0 for i in range(len(nums))] for j in range(len(nums))]
+        # for i in range(len(nums) - 1):
+        #     dp[i][i + 1] = nums[i] * nums[i + 1]
+        length = len(nums)
+        for l in range(3, length + 1):
+            for i in range(length - l + 1):
+                j = i + l - 1
+                for k in range(i + 1, j):
+                    # burst all balloons from i to j, (i, j are kept)
+                    dp[i][j] = max(dp[i][j], dp[i][k] + dp[k][j] + nums[i] * nums[k] * nums[j])
+        print(dp)
+        return dp[0][-1]
