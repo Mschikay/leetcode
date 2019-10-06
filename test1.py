@@ -1,37 +1,63 @@
-from collections import defaultdict
+d = {}
+m = None
+route = None
+longest = -1
+longestPath = None
 
-def q1(S1, S2):
-    d = defaultdict(int)
-    for s in range(len(S1)):
-        d[S1[s]] = s
-    step = abs(d[S2[0]] - d[S1[0]])
-    for i in range(1, len(S2)):
-        step += abs(d[S2[i]] - d[S2[i - 1]])
-    return step
+def findMax(a, b, distance):
+    global m, route, longest, longestPath
+    longest = -1
+    longestPath = None
+    if not a in d or not b in d:
+        d[a].append((b, distance))
+        d[b].append((a, distance))
+    elif not a in d:
+        s = 0
+        v = set()
+        path = []
+        findPath(b, path, v, s)
+        curr = distance + longest
+        if curr > m:
+            m = curr
+            route = [a] + longestPath
+    elif not b in d:
+        s = 0
+       [] v = set()
+        path = []
+        findPath(a, path, v, s)
+        curr = distance + longest
+        if curr > m:
+            m = curr
+            route = [b] + longestPath
+    else:
+        s1 = s2 = 0
+        v = set()
+        path1 = []
+        path2 = []
+        findPath(a, path1, v, s1)
+        curr = distance + longest
+        longest = -1
+        longestPath = None
+        findPath(b, path2, v, s2)
+        currPath = longestPath[::-1]
+        currPath += longestPath
+        if curr > m:
+            m = curr
+            route = currPath
+    return route, m
 
-# [-1, 7, 0, 7, 8]
-def Solution(A):
-    preSum = [0]
-    for a in A:
-        preSum.append(preSum[-1] + a)
-    length = len(A)
-    level = 1
-    maxVal = float("-inf")
-    res = 0
-    while (1 << level - 1) - 1 < length:
-        val = (preSum[(1 << level) - 1] if (1 << level) - 1 <= length else preSum[-1]) \
-            - (preSum[(1 << level - 1) - 1] if (1 << level - 1) - 1 >= 0 else 0)
-        if val > maxVal:
-            maxVal = val
-            res = level
-            level += 1
-    return res
 
-print(Solution([0, 0, 1, 8,9]))
-
-print(q2([15, 7, 0, 7, 8]))
-
-
-
-
-# print(q1('abcdefghijklmnopqrstuvwxyz', 'cba'))
+def findPath(node, path, v, s):
+    global longest, longestPath
+    end = True
+    for n, mile in d[node]:
+        if n not in v:
+            end = False
+            v.add(n)
+            findPath(n, path + n, v, s + mile)
+            v.remove(n)
+    if end:
+        if s > longest:
+            longest = s
+            longestPath = path
+    return
